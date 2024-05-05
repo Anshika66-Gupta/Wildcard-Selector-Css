@@ -1,0 +1,30 @@
+<html>
+<head>
+    <style>
+        /*for *= selector*/
+        [class*="test"] {
+         color: red;
+         font-size: 2rem;
+      }
+      /*for ^= selector*/
+      [class^="test"] {
+         color: blue;
+         font-weight: bold;
+      }
+      /*for $= selector*/
+        [class$="test"]{
+           border: 2px solid green;
+           padding: 5px 10px;
+           margin: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+   <h2>Using the <i> contain ($=)</i>WIldcard Selector</h2>
+   <div class="test1">This Is the text with the class name test1</div>
+   <div class="sampletest">This Is the text with the class name sampletest </div>
+   <div class="demo">This Is the text with the class name demo test</div>
+   <div class="element">This Is the text with the class name element</div>
+</body>
+</html>
